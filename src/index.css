@@ -1,0 +1,26 @@
+.navigation-bar {
+  background-color: #a4c991;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  margin: 0;
+  height: 100px;
+  left: 0px;
+  margin-left: 0;
+}
+
+.navigation-buttons {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+.logo {
+  background-color: blue;
+}
