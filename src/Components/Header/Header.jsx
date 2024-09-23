@@ -8,7 +8,7 @@ function Header() {
           <img src="https://hotel-chinzanso-tokyo.com/common/img/logo.svg" alt="Company Logo" className="logo" />
         </div>
 
-        <nav className="navigation-buttons">
+        <div className="navigation-buttons">
             <ul>
                 <li><a href="/">Home</a></li>
             </ul>
@@ -28,7 +28,7 @@ function Header() {
             <ul>
             <li><a href="/contact">Contact</a></li>
             </ul>
-        </nav>
+        </div>
 
       </header>
     );

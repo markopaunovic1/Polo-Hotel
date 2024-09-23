@@ -2,7 +2,7 @@
   background-color: #a4c991;
   color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   position: absolute;
   top: 0;
@@ -15,12 +15,23 @@
 
 .navigation-buttons {
   display: flex;
-  list-style-type: none;
+  list-style: none;
   align-items: center;
   justify-content: space-between;
-  margin-right: 50px;
+  text-decoration: none;
 }
 
 .logo {
-  background-color: blue;
+  margin-right: 100px;
+}
+
+ul {
+  display: flex;
+
+  list-style-type: none;
+  padding: 20px;
+  justify-content: space-around;
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: lighter;
 }
