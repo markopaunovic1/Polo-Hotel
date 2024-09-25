@@ -1,6 +1,5 @@
 .navigation-bar {
-  background-color: #a4c991;
-  color: white;
+  background-color: #fafafb;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -13,25 +12,38 @@
   margin-left: 0;
 }
 
-.navigation-buttons {
-  display: flex;
-  list-style: none;
-  align-items: center;
-  justify-content: space-between;
-  text-decoration: none;
-}
-
 .logo {
-  margin-right: 100px;
+  width: 140px;
+  height: 80px;
+  padding: 30px;
 }
 
-ul {
-  display: flex;
-
+.navigation-buttons {
   list-style-type: none;
-  padding: 20px;
-  justify-content: space-around;
-  font-size: 30px;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: lighter;
+}
+
+li a {
+  display: block;
+  color: #213764;
+  text-align: center;
+  padding: 40px 16px;
+  font-size: 20px;
+  text-decoration: none;
+  transition: 0.1s;
+}
+
+li a:hover {
+  background-color: #5c173a;
+  color: #fafafb;
+}
+
+.book-button a {
+  background-color: #5c173a;
+  color: #fafafb;
 }
