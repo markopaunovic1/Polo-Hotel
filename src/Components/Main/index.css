@@ -1,3 +1,7 @@
+.mainPage-content-div {
+  text-align: center;
+}
+
 .background-img {
   object-fit: cover;
   object-position: center 70%;
@@ -33,4 +37,16 @@
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+.hero-button:hover {
+  background-color: #fafafb;
+  color: #5c173a;
+  transition: 0.3s;
+}
+
+.rooms-header-text {
+  padding-top: 100px;
+  color: #213764;
+  font-size: 44px;
 }
