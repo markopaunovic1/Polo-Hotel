@@ -20,9 +20,11 @@ function MainPage() {
                         </button>
                 </section>
 
-                <h1 className="rooms-header-text">Rooms & Suites</h1>
+                <div>
+                    <h1 className="rooms-header-text">Rooms & Suites</h1>
 
-            
+                    
+                </div>
         </div>
     );
 }
