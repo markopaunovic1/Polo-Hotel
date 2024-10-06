@@ -50,3 +50,20 @@
   color: #213764;
   font-size: 44px;
 }
+
+.random-images-container {
+  border: solid, #213764be, 1px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  width: 60%;
+  height: 500px;
+  align-content: center;
+  margin-bottom: 100px;
+}
+
+.random-images-content {
+  color: #213764;
+  margin: 40px;
+  text-align: start;
+}

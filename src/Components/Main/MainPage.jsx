@@ -24,7 +24,14 @@ function MainPage() {
 
                 <div>
                     <h1 className="rooms-header-text">Rooms & Suites</h1>
-                    <ImageSlider/>
+
+                    <div className="random-images-container">
+                        <ImageSlider/>
+                        <div className="random-images-content">
+                            <h3>The essence of Polo Hotel is reflected in every aspect of who we are and what we do.</h3>
+                            <h3>We provide unparalleled service, comfort and style while creating meaningful and memorable experiences.</h3>
+                        </div>
+                    </div>
                 </div>
                 
         </div>
