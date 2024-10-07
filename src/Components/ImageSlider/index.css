@@ -1,4 +1,6 @@
 .carousel-container {
+  position: relative;
+  align-items: center;
   background: #f1f1f1;
   display: flex;
   flex-wrap: nowrap;
@@ -17,4 +19,25 @@
   align-items: center;
   justify-content: center;
   transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
+
+.button-container > button {
+  background-color: transparent;
+
+  border: solid #f1f1f1 2px;
+  border-radius: 4px;
+  color: whitesmoke;
+  font-size: 24px;
+}
+
+.slider-button-next {
+  border: 0;
+  position: absolute;
+  right: 20px;
+}
+
+.slider-button-prev {
+  border: 0;
+  position: absolute;
+  left: 20px;
 }
