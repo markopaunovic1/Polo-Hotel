@@ -10,8 +10,8 @@ function ImageSlider() {
 
     const randomImages = hotelImages.randomRoomImages
 
-    const carouselInfiniteScroll = () => {
-        if (currentIndex === randomImages - 1) {
+    const carouselInfiniteScroll = (props) => {
+        if (currentIndex === randomImages.length - 1) {
             return setCurrentIndex(0);
         }
         return setCurrentIndex(currentIndex + 1);
@@ -24,8 +24,8 @@ function ImageSlider() {
     });
 
     const nextImage = () => {
-        setActiveIndex((val) => {
-            if (val >= randomImages.length -1) {
+        setActiveIndex(() => {
+            if (currentIndex >= randomImages.length -1) {
                 return setCurrentIndex(0);
             } else {
                 return setCurrentIndex(currentIndex + 1);
@@ -34,9 +34,9 @@ function ImageSlider() {
     }
 
     const prevImage = () => {
-        setActiveIndex((val) => {
-            if (val <= 0)  {
-                return setCurrentIndex(0);
+        setActiveIndex(() => {
+            if (currentIndex <= 0)  {
+                return setCurrentIndex(3);
             } else {
                 return setCurrentIndex(currentIndex - 1);
             }

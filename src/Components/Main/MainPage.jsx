@@ -28,8 +28,8 @@ function MainPage() {
                     <div className="random-images-container">
                         <ImageSlider/>
                         <div className="random-images-content">
-                            <h3>The essence of Polo Hotel is reflected in every aspect of who we are and what we do.</h3>
-                            <h3>We provide unparalleled service, comfort and style while creating meaningful and memorable experiences.</h3>
+                            <h1>The essence of Polo Hotel is reflected in every aspect of who we are and what we do.</h1>
+                            <h2>We provide unparalleled service, comfort and style while creating meaningful and memorable experiences.</h2>
                         </div>
                     </div>
                 </div>
