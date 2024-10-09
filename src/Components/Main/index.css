@@ -69,3 +69,22 @@
   font-size: 12px;
   font-weight: lighter;
 }
+
+.standard-images-container {
+  border: solid, #213764be, 1px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  width: 60%;
+  height: 500px;
+  align-content: center;
+  margin-bottom: 100px;
+}
+
+.standard-images-content {
+  color: #213764;
+  margin: 40px;
+  text-align: start;
+  font-size: 12px;
+  font-weight: lighter;
+}

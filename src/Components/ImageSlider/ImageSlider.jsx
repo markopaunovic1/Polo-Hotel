@@ -1,16 +1,17 @@
 import React, { useState, useEffect} from "react";
 import './index.css'
 import hotelImages from '../../data/images'
+import images from "../../data/images";
 
 
-function ImageSlider() {
+function ImageSlider({ images }) {
 
     const [currentIndex, setCurrentIndex] = useState(0);
     const [activeIndex, setActiveIndex] = useState(0);
 
-    const randomImages = hotelImages.randomRoomImages
+    const randomImages = images
 
-    const carouselInfiniteScroll = (props) => {
+    const carouselInfiniteScroll = () => {
         if (currentIndex === randomImages.length - 1) {
             return setCurrentIndex(0);
         }

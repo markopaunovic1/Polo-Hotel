@@ -22,8 +22,7 @@
 }
 
 .button-container > button {
-  background-color: transparent;
-
+  background-color: #f1f1f137;
   border: solid #f1f1f1 2px;
   border-radius: 4px;
   color: whitesmoke;
