@@ -4,7 +4,7 @@ import hotelImages from '../../data/images'
 import images from "../../data/images";
 
 
-function ImageSlider({ images }) {
+function ImageSlider({ images, autoScroll }) {
 
     const [currentIndex, setCurrentIndex] = useState(0);
     const [activeIndex, setActiveIndex] = useState(0);
@@ -19,7 +19,13 @@ function ImageSlider({ images }) {
     }
 
     useEffect(() => {
-        const interval = setInterval(() => { carouselInfiniteScroll()}, 3000)
+        const interval = setInterval(() => {
+            if (autoScroll === true) {
+            carouselInfiniteScroll()
+        } else {
+            autoScroll = false
+        }
+        }, 3000)
         // clean up function
         return () => clearInterval(interval);
     });

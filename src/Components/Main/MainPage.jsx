@@ -27,7 +27,7 @@ function MainPage() {
                     <h1 className="rooms-header-text">Rooms & Suites</h1>
 
                     <div className="random-images-container">
-                        <ImageSlider images={images.randomRoomImages}/>
+                        <ImageSlider images={images.randomRoomImages} autoScroll={true}/>
                         <div className="random-images-content">
                             <h1>The essence of Polo Hotel is reflected in every aspect of who we are and what we do.</h1>
                             <h2>We provide unparalleled service, comfort and style while creating meaningful and memorable experiences.</h2>
@@ -40,11 +40,11 @@ function MainPage() {
                             <h2>All rooms and suites were renovated from 2017–2018, and equipment like a laptop-size safe, smart TV, kettle, minibar, hair dryer, iron, and ironing board are standard.</h2>
                             <h3>Enjoy sophisticated rooms in different design styles.</h3>
                         </div>
-                        <ImageSlider images={images.standardRoomImages}/> 
+                        <ImageSlider images={images.standardRoomImages} autoScroll={false}/> 
                     </div>
 
                     <div className="random-images-container">
-                        <ImageSlider images={images.superiorRoomImages}/>
+                        <ImageSlider images={images.superiorRoomImages} autoScroll={false}/>
                         <div className="random-images-content">
                             <h1>SUPERIOR ROOMS</h1>
                             <h2>Superior rooms in a hotel offer enhanced comfort and style, often featuring extra amenities like premium bedding and larger spaces.</h2>
@@ -58,7 +58,7 @@ function MainPage() {
                             <h2>Relaxation, rejuvenation, and overall well-being, offering a range of treatments like massages, facials, and body therapies, spas help to relieve stress and restore balance.</h2>
                             <h3>With soothing environments, calming music, and skilled therapists, they provide a perfect escape from everyday life.</h3>
                         </div>
-                        <ImageSlider images={images.spaImages}/> 
+                        <ImageSlider images={images.spaImages} autoScroll={false}/> 
                     </div>
                 </div>
         </div>
