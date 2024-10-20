@@ -52,7 +52,8 @@
 }
 
 .random-images-container {
-  border: solid, #213764be, 1px;
+  background-color: #f0f0f0;
+  border: 1px solid, #213764be;
   margin: auto;
   display: flex;
   align-items: center;
@@ -71,7 +72,8 @@
 }
 
 .standard-images-container {
-  border: solid, #213764be, 1px;
+  background-color: #f0f0f0;
+  border: 1px solid, #213764be;
   margin: auto;
   display: flex;
   align-items: center;
@@ -91,4 +93,35 @@
 
 .random-images-content-h1 {
   color: #5c173a;
+}
+
+.services-content-header {
+  padding-top: 20px;
+  color: #213764;
+  font-size: 44px;
+}
+
+.all-hotel-services-content {
+  padding-inline-start: 0px;
+  padding: 30px;
+  color: #213764;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 20px;
+  text-align: start;
+  list-style: none;
+}
+
+.services-overview-card {
+  display: flex;
+  align-items: center;
+  background-color: #fafafb;
+  border-radius: 10px;
+  padding: 3px;
+  padding-left: 15px;
+}
+
+.service-card-icon {
+  height: 40px;
+  display: flex;
 }

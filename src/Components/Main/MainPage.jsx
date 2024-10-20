@@ -60,6 +60,107 @@ function MainPage() {
                         </div>
                         <ImageSlider images={images.spaImages} autoScroll={false}/> 
                     </div>
+
+                    <div>
+                        <h1 className="services-content-header">SERCVICES</h1>
+                        <div>
+                            <ul className="all-hotel-services-content">
+                                <li>
+                                    <div className="services-overview-card">
+                                            <div className="service-card-icon">
+                                                <img src="https://www.svgrepo.com/show/81554/breakfast.svg" alt="breakfast-icon-img" />
+                                            </div>
+                                        <div>
+                                            <h2>Breakfast buffet</h2>
+                                            <p>Fresh breakfast buffet</p> 
+                                        </div>
+                                    </div>
+                                </li>
+                                
+                                <li> 
+                                <div className="services-overview-card">
+                                        <div className="service-card-icon">
+                                                <img src="https://www.svgrepo.com/show/532893/wifi.svg" alt="wifi-icon-img" />
+                                            </div>
+                                        <div>
+                                            <h2>Free wifi</h2>
+                                            <p>Free wifi</p>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <li>
+                                <div className="services-overview-card">
+                                <h2>Indoor pool</h2>
+                                    <p>Indoor pool all year</p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                <div className="services-overview-card">
+                                <h2>Luggage storage</h2> 
+                                <p>Luggage storage</p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                <div className="services-overview-card">
+                                <h2>Meeting rooms</h2>
+                                <p>Meeting rooms/social space</p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                <div className="services-overview-card">
+                                <h2>Hotel restaurant</h2>
+                                <p>Restauranger på hotellet</p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                <div className="services-overview-card">
+                                <h2>Availability</h2>
+                                <p>Disability adaptation available</p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                <div className="services-overview-card">
+                                <h2>Fitness center</h2>
+                                <p>Training rooms and equipments</p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                <div className="services-overview-card">
+                                <h2>Laundry service</h2>
+                                <p>Laundry service</p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                <div className="services-overview-card">
+                                <h2>Pet friendly</h2>
+                                <p>Pets allowed - ask for information</p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                <div className="services-overview-card">
+                                <h2>Room service</h2>
+                                <p>Room service</p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                <div className="services-overview-card">
+                                <h2>Safety and security certificate</h2>
+                                <p>Safehotels Alliance-certificate</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
         </div>
     );
