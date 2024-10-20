@@ -104,6 +104,8 @@
 .all-hotel-services-content {
   padding-inline-start: 0px;
   padding: 30px;
+  padding-left: 300px;
+  padding-right: 300px;
   color: #213764;
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -124,4 +126,15 @@
 .service-card-icon {
   height: 40px;
   display: flex;
+  margin-right: 24px;
+}
+
+.services-overview-card h2 {
+  font-size: 22px;
+  font-weight: lighter;
+}
+
+.services-overview-card p {
+  color: #21376488;
+  margin-top: -18px;
 }

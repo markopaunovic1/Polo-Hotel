@@ -67,9 +67,9 @@ function MainPage() {
                             <ul className="all-hotel-services-content">
                                 <li>
                                     <div className="services-overview-card">
-                                            <div className="service-card-icon">
-                                                <img src="https://www.svgrepo.com/show/81554/breakfast.svg" alt="breakfast-icon-img" />
-                                            </div>
+                                        <div className="service-card-icon">
+                                            <img src="https://www.svgrepo.com/show/81554/breakfast.svg" alt="breakfast-icon-img" />
+                                        </div>
                                         <div>
                                             <h2>Breakfast buffet</h2>
                                             <p>Fresh breakfast buffet</p> 
@@ -78,10 +78,10 @@ function MainPage() {
                                 </li>
                                 
                                 <li> 
-                                <div className="services-overview-card">
+                                    <div className="services-overview-card">
                                         <div className="service-card-icon">
-                                                <img src="https://www.svgrepo.com/show/532893/wifi.svg" alt="wifi-icon-img" />
-                                            </div>
+                                            <img src="https://www.svgrepo.com/show/532893/wifi.svg" alt="wifi-icon-img" />
+                                        </div>
                                         <div>
                                             <h2>Free wifi</h2>
                                             <p>Free wifi</p>
@@ -90,72 +90,122 @@ function MainPage() {
                                 </li>
 
                                 <li>
-                                <div className="services-overview-card">
-                                <h2>Indoor pool</h2>
-                                    <p>Indoor pool all year</p>
+                                    <div className="services-overview-card">
+                                        <div className="service-card-icon">
+                                            <img src="https://www.svgrepo.com/show/521869/swimming.svg" alt="swimming-icon-img" />
+                                        </div>
+                                        <div>
+                                            <h2>Indoor pool</h2>
+                                            <p>Indoor pool all year</p>
+                                        </div>
                                     </div>
                                 </li>
 
                                 <li>
-                                <div className="services-overview-card">
-                                <h2>Luggage storage</h2> 
-                                <p>Luggage storage</p>
+                                    <div className="services-overview-card">
+                                        <div className="service-card-icon">
+                                            <img src="https://www.svgrepo.com/show/502761/luggage.svg" alt="luggage-icon-img" />
+                                        </div>
+                                        <div>
+                                            <h2>Luggage storage</h2> 
+                                            <p>Luggage storage</p>
+                                        </div>
                                     </div>
                                 </li>
 
                                 <li>
-                                <div className="services-overview-card">
-                                <h2>Meeting rooms</h2>
-                                <p>Meeting rooms/social space</p>
+                                    <div className="services-overview-card">
+                                        <div className="service-card-icon">
+                                            <img src="https://www.svgrepo.com/show/307946/meeting-consider-deliberate-about-meet.svg" alt="meeting-icon-img" />
+                                        </div>
+                                        <div>
+                                            <h2>Meeting rooms</h2>
+                                            <p>Meeting rooms/social space</p>
+                                        </div>
                                     </div>
                                 </li>
 
                                 <li>
-                                <div className="services-overview-card">
-                                <h2>Hotel restaurant</h2>
-                                <p>Restauranger på hotellet</p>
+                                    <div className="services-overview-card">
+                                        <div className="service-card-icon">
+                                            <img src="https://www.svgrepo.com/show/455319/restaurant-fork-knife.svg" alt="restaurant-icon-img" />
+                                        </div>
+                                        <div>
+                                            <h2>Hotel restaurant</h2>
+                                            <p>Restauranger på hotellet</p>
+                                        </div>
                                     </div>
                                 </li>
 
                                 <li>
-                                <div className="services-overview-card">
-                                <h2>Availability</h2>
-                                <p>Disability adaptation available</p>
+                                    <div className="services-overview-card">
+                                        <div className="service-card-icon">
+                                            <img src="https://www.svgrepo.com/show/472894/wheelchair.svg" alt="wheelchair-icon-img" />
+                                        </div>
+                                        <div>
+                                            <h2>Availability</h2>
+                                            <p>Disability adaptation available</p>
+                                        </div>
                                     </div>
                                 </li>
 
                                 <li>
-                                <div className="services-overview-card">
-                                <h2>Fitness center</h2>
-                                <p>Training rooms and equipments</p>
+                                    <div className="services-overview-card">
+                                        <div className="service-card-icon">
+                                            <img src="https://www.svgrepo.com/show/355802/dumbell.svg" alt="dumbell-icon-img" />    
+                                        </div>
+                                        <div>
+                                            <h2>Fitness center</h2>
+                                            <p>Training rooms and equipments</p>
+                                        </div>
                                     </div>
                                 </li>
 
                                 <li>
-                                <div className="services-overview-card">
-                                <h2>Laundry service</h2>
-                                <p>Laundry service</p>
+                                    <div className="services-overview-card">
+                                        <div className="service-card-icon">
+                                            <img src="https://www.svgrepo.com/show/489008/laundry.svg" alt="laundry-icon-img" />
+                                        </div>
+                                        <div>
+                                            <h2>Laundry service</h2>
+                                            <p>Laundry service</p>
+                                        </div>
                                     </div>
                                 </li>
 
                                 <li>
-                                <div className="services-overview-card">
-                                <h2>Pet friendly</h2>
-                                <p>Pets allowed - ask for information</p>
+                                    <div className="services-overview-card">
+                                        <div className="service-card-icon">
+                                            <img src="https://www.svgrepo.com/show/479103/paw-2.svg" alt="paw-icon-img" />
+                                        </div>
+                                        <div>
+                                            <h2>Pet friendly</h2>
+                                            <p>Pets allowed - ask for information</p>
+                                        </div>
                                     </div>
                                 </li>
 
                                 <li>
-                                <div className="services-overview-card">
-                                <h2>Room service</h2>
-                                <p>Room service</p>
+                                    <div className="services-overview-card">
+                                        <div className="service-card-icon">
+                                            <img src="https://www.svgrepo.com/show/490317/room-service.svg" alt="room-service-icon-img" />
+                                        </div>
+                                        <div>
+                                            <h2>Room service</h2>
+                                            <p>Room service</p>
+                                        </div>
                                     </div>
                                 </li>
 
                                 <li>
-                                <div className="services-overview-card">
-                                <h2>Safety and security certificate</h2>
-                                <p>Safehotels Alliance-certificate</p>
+                                    <div className="services-overview-card">
+                                        <div className="service-card-icon">
+                                            <img src="https://www.svgrepo.com/show/478084/security-free-material.svg" alt="security-icon-img" />
+                                        </div>
+                                            <div>
+                                            <h2>Safety and security certificate</h2>
+                                            <p>Safehotels Alliance-certificate</p>
+                                        </div>
                                     </div>
                                 </li>
                             </ul>
