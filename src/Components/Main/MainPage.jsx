@@ -2,6 +2,7 @@ import React from "react"
 import ReactDOM from 'react-dom/client'
 import ImageSlider from "../ImageSlider/ImageSlider";
 import images from "../../data/images";
+import Calendar from "../Calendar/Calendar";
 import './index.css'
 
 function clickMe() {
@@ -12,6 +13,7 @@ function MainPage() {
 
     return (
         <div className="mainPage-content-div">
+            <Calendar />
                 <img src="https://www.kayak.co.uk/news/wp-content/uploads/sites/5/2023/08/THEME_HOTEL_SIGN_FIVE_STARS_FACADE_BUILDING_GettyImages-1320779330-3.jpg" className="background-img"></img>
             
                 <section class='hero-image-text'>
@@ -62,7 +64,7 @@ function MainPage() {
                     </div>
 
                     <div>
-                        <h1 className="services-content-header">SERCVICES</h1>
+                        <h1 className="services-content-header">SERVICES</h1>
                         <div>
                             <ul className="all-hotel-services-content">
                                 <li>
