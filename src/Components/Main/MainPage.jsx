@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client'
 import ImageSlider from "../ImageSlider/ImageSlider";
 import images from "../../data/images";
 import Calendar from "../Calendar/Calendar";
+
 import './index.css'
 
 function clickMe() {
@@ -214,6 +215,7 @@ function MainPage() {
                         </div>
                     </div>
                 </div>
+                
         </div>
     );
 }
