@@ -12,8 +12,15 @@
   filter: brightness(40%);
 }
 
+.container-image-text {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
 .hero-image-text {
   position: absolute;
+  margin-top: 240px;
   text-align: center;
   font-size: 24px;
   color: #fafafb;
