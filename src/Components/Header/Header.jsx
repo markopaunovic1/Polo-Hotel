@@ -1,6 +1,7 @@
-import React from "react"
-import ReactDOM from 'react-dom/client'
-import './index.css'
+import React from "react";
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import Booking from "../Booking/Booking";
 
 function Header() {
     return (
@@ -8,7 +9,8 @@ function Header() {
         <div className="nav-logo">
           <img src="https://seeklogo.com/images/M/marco-polo-hotels-logo-FB528D43C8-seeklogo.com.png" alt="Company-Logo" className="logo" /> 
         </div>
-
+      
+      <div className="header-content">
         <div>
             <ul className="navigation-buttons">
               <li><a href="/">Home</a></li>
@@ -19,7 +21,8 @@ function Header() {
               <li className="book-button" ><a href="booking">Book now</a></li>
             </ul>
         </div>
-        
+        <Booking />
+      </div>
       </header>
     );
   }

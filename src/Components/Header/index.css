@@ -29,6 +29,10 @@
   font-weight: lighter;
 }
 
+.header-content {
+  display: block;
+}
+
 li a {
   display: block;
   color: #213764;

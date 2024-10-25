@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import ReactCalendar from "react-calendar";
+import './index.css'
 
 function Calendar() {
    // const [value, onChange] = useState<valueer>(new Date());
