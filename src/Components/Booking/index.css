@@ -1,15 +1,22 @@
 .booking-content {
   position: fixed;
   background-color: blue;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0;
-  left: 0px;
-  margin-left: 0px;
+  margin-left: auto;
+  margin-right: auto;
   z-index: 1;
   width: 100%;
   overflow: hidden;
+}
+
+.booking-buttons {
+  border: 1px solid purple;
+  cursor: pointer;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 4px;
+  padding: 0px 40px 0px 40px;
+  text-align: start;
 }
 
 .navigation-bar {
@@ -26,4 +33,8 @@
   margin-left: 0;
   z-index: 1;
   overflow: hidden;
+}
+
+.open-calendar {
+  display: fle;
 }
