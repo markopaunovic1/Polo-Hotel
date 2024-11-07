@@ -1,22 +1,66 @@
-.booking-content {
+.booking-container {
   position: fixed;
+  display: flex;
   background-color: blue;
-  margin-left: auto;
-  margin-right: auto;
+  justify-content: center;
+  left: 0;
   z-index: 1;
   width: 100%;
   overflow: hidden;
 }
 
+.booking-calendar-icon {
+  height: 40px;
+  width: 40px;
+}
+
+.booking-divide-calendar-icon {
+  display: flex;
+  align-items: center;
+}
+
 .booking-buttons {
-  border: 1px solid purple;
+  border: 1px solid rgb(255, 242, 3);
   cursor: pointer;
-  border-radius: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
   margin-bottom: 4px;
   padding: 0px 40px 0px 40px;
   text-align: start;
+  position: relative;
+}
+
+.booking-content {
+  display: flex;
+}
+
+.booking-guests {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid yellow;
+  background-color: white;
+}
+
+.booking-counter-buttons {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.booking-guests-button {
+  display: block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: none;
+}
+
+.booking-guests-counter {
+  background-color: white;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .navigation-bar {
@@ -36,5 +80,7 @@
 }
 
 .open-calendar {
-  display: fle;
+  position: fixed;
+  top: 250px;
+  border: 4px solid red;
 }
