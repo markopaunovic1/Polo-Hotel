@@ -33,7 +33,7 @@ function Booking() {
                         
                         <p>Check-in</p>
                     <h3>{currentDate}</h3>
-                    <p>  </p>
+                    <p> ▲ </p>
                 </button>
 
                 <button onClick={handleOpen} className="booking-buttons">
@@ -58,9 +58,6 @@ function Booking() {
                         <button className="booking-guests-button"> + </button>
                     </div>
                 </div>
-
-                
-                
             </div>
         </div>
     )
