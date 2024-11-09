@@ -25,23 +25,29 @@ function Booking() {
     return (
         <div className="booking-container">
             <div className="booking-content">
+                <div className="booking-container-buttons">
+                    <button onClick={handleOpen} className="booking-buttons">
+                        <div className="booking-divider-icon-date">
+                            <img src="https://www.svgrepo.com/show/533393/calendar-lines.svg" alt="calendar-icon" className="booking-calendar-icon"/>   
+                            <div className="booking-check-in-date-text">
+                                <p>Check-in</p>
+                                <h3>{currentDate}</h3>
+                            </div> 
+                            <p> ▲ </p>
+                        </div>
+                    </button>
 
-                <button onClick={handleOpen} className="booking-buttons">
-                    <div className="booking-divide-calendar-icon">
-                        <img src="https://www.svgrepo.com/show/533393/calendar-lines.svg" alt="calendar-icon" className="booking-calendar-icon"/>
-                    </div>
-                        
-                        <p>Check-in</p>
-                    <h3>{currentDate}</h3>
-                    <p> ▲ </p>
-                </button>
-
-                <button onClick={handleOpen} className="booking-buttons">
-                <img src="https://www.svgrepo.com/show/533393/calendar-lines.svg" alt="calendar-icon" className="booking-calendar-icon"/>
-                    <p>Check-out</p>
-                    <h3>{currentDate}</h3>
-                    <p> ▼ </p>
-                </button>
+                    <button onClick={handleOpen} className="booking-buttons">
+                        <div className="booking-divider-icon-date">
+                            <img src="https://www.svgrepo.com/show/533393/calendar-lines.svg" alt="calendar-icon" className="booking-calendar-icon"/>   
+                            <div className="booking-check-in-date-text">
+                                <p>Check-in</p>
+                                <h3>{currentDate}</h3>
+                            </div> 
+                            <p> ▼ </p>
+                        </div>
+                    </button>
+                </div>
 
                 {openDate ? <div className="open-calendar"> 
                     <DateRangePicker

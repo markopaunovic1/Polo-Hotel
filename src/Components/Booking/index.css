@@ -1,9 +1,10 @@
 .booking-container {
   position: fixed;
   display: flex;
-  background-color: blue;
+  background-color: #5c173a;
   justify-content: center;
   left: 0;
+  height: 100px;
   z-index: 1;
   width: 100%;
   overflow: hidden;
@@ -14,22 +15,33 @@
   width: 40px;
 }
 
-.booking-divide-calendar-icon {
+.booking-divider-icon-date {
   display: flex;
   align-items: center;
+}
+
+.booking-check-in-date-text {
+  padding-left: 10px;
+  padding-right: 50px;
+}
+
+.booking-check-in-date-text p {
+  color: gray;
 }
 
 .booking-buttons {
   border: 1px solid rgb(255, 242, 3);
   cursor: pointer;
   margin-bottom: 4px;
-  padding: 0px 40px 0px 40px;
+  padding: 0px 10px 0px 10px;
   text-align: start;
   position: relative;
 }
 
 .booking-content {
   display: flex;
+
+  align-items: center;
 }
 
 .booking-guests {
@@ -37,7 +49,6 @@
   align-items: center;
   padding-left: 20px;
   padding-right: 20px;
-  border: 1px solid yellow;
   background-color: white;
 }
 
