@@ -17,6 +17,26 @@ function Booking() {
       });
 
     const currentDate = new Date().toJSON().slice(0, 10);
+    
+
+    const [guestCounter, setGuestCounter] = useState(0);
+
+    const incriment = () => {
+        setGuestCounter(guestCounter + 1);
+
+        if (guestCounter === 10) {
+            setGuestCounter(10);
+        }
+    };
+
+    const decrement = () => {
+        setGuestCounter(guestCounter - 1);
+
+        if (guestCounter === 0) {
+            setGuestCounter(0);
+        }
+    };
+
 
     const handleOpen = () => {
         setOpenDate(!openDate);
@@ -59,11 +79,18 @@ function Booking() {
                 <div className="booking-guests">
                     <p> Guests</p>
                     <div className="booking-counter-buttons">
-                        <button className="booking-guests-button"> - </button>
-                        <p className="booking-guests-counter"> 1 </p>
-                        <button className="booking-guests-button"> + </button>
+                        <button className="booking-guests-button" onClick={decrement}> - </button>
+                        <p className="booking-guests-counter"> {guestCounter} </p>
+                        <button className="booking-guests-button" onClick={incriment} > + </button>
                     </div>
                 </div>
+                
+                <div className="booking-check-button">
+                    <button>
+                        Check
+                    </button>
+                </div>
+
             </div>
         </div>
     )
