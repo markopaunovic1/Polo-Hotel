@@ -17,8 +17,6 @@ function Booking() {
       });
 
     const currentDate = new Date().toJSON().slice(0, 10);
-    
-
     const [guestCounter, setGuestCounter] = useState(0);
 
     const incriment = () => {
