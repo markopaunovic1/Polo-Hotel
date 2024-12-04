@@ -17,7 +17,7 @@ function Booking() {
       });
 
     const currentDate = new Date().toJSON().slice(0, 10);
-    const [guestCounter, setGuestCounter] = useState(0);
+    const [guestCounter, setGuestCounter] = useState(1);
 
     const incriment = () => {
         setGuestCounter(guestCounter + 1);
@@ -30,8 +30,8 @@ function Booking() {
     const decrement = () => {
         setGuestCounter(guestCounter - 1);
 
-        if (guestCounter === 0) {
-            setGuestCounter(0);
+        if (guestCounter === 1) {
+            setGuestCounter(1);
         }
     };
 
@@ -59,7 +59,7 @@ function Booking() {
                         <div className="booking-divider-icon-date">
                             <img src="https://www.svgrepo.com/show/533393/calendar-lines.svg" alt="calendar-icon" className="booking-calendar-icon"/>   
                             <div className="booking-check-in-date-text">
-                                <p>Check-in</p>
+                                <p>Check-out</p>
                                 <h3>{currentDate}</h3>
                             </div> 
                             <p> ▼ </p>
@@ -83,8 +83,8 @@ function Booking() {
                     </div>
                 </div>
                 
-                <div className="booking-check-button">
-                    <button>
+                <div className="booking-check-button-container">
+                    <button className="booking-check-button">
                         Check
                     </button>
                 </div>
