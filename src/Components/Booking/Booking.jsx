@@ -35,7 +35,6 @@ function Booking() {
         }
     };
 
-
     const handleOpen = () => {
         setOpenDate(!openDate);
     }
